@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "pfolio_sites",
+  "info": {
+    "singularName": "pfolio-site",
+    "pluralName": "pfolio-sites",
+    "displayName": "pfolio-site"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "pfolio_sites",
+  "collectionName": "pfolio_mes",
   "info": {
-    "singularName": "pfolio-site",
-    "pluralName": "pfolio-sites",
-    "displayName": "pfolio-site",
-    "description": ""
+    "singularName": "pfolio-me",
+    "pluralName": "pfolio-mes",
+    "displayName": "pfolio-me"
   },
   "options": {
     "draftAndPublish": true
@@ -15,31 +14,34 @@
     "title": {
       "type": "string"
     },
-    "subtitle": {
-      "type": "string"
-    },
-    "ctaTitle": {
-      "type": "string"
-    },
-    "linkedIn_URL": {
-      "type": "string"
-    },
-    "instagram_URL": {
-      "type": "string"
-    },
-    "twitter_URL": {
-      "type": "string"
-    },
-    "update": {
-      "type": "string"
-    },
-    "message": {
+    "sub_title": {
       "type": "string"
     },
     "email": {
       "type": "email"
     },
-    "submit_URL": {
+    "cta_title": {
+      "type": "string"
+    },
+    "cta_subtitle": {
+      "type": "string"
+    },
+    "footer_title": {
+      "type": "string"
+    },
+    "linkedin_URL": {
+      "type": "string"
+    },
+    "instagram_url": {
+      "type": "string"
+    },
+    "twitter_url": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "update_message": {
       "type": "string"
     }
   }

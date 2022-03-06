@@ -13,7 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "tags": {
       "type": "enumeration",
@@ -21,17 +23,15 @@
         "Developer",
         "Designer"
       ],
-      "default": "Designer"
+      "default": "Designer",
+      "required": true
     },
     "image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "theme": {
@@ -39,17 +39,9 @@
       "enum": [
         "dark",
         "light"
-      ]
-    },
-    "Image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
       ],
-      "type": "media",
-      "multiple": false
+      "required": true,
+      "default": "light"
     }
   }
 }
